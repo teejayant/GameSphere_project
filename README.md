@@ -21,9 +21,7 @@ A dynamic and modular **Game Launcher** built using Python, featuring a GUI-base
 - **Libraries**: Tkinter, Pygame, Turtle, PIL (Image)
 - **Concepts**: OOP, Event-Driven Programming, Game Loop Management
 
-## 📷 Screenshots
 
-> **
 
 ```bash
 📁GameSphere_project/
