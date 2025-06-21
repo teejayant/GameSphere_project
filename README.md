@@ -22,7 +22,13 @@ A dynamic and modular **Game Launcher** built using Python, featuring a GUI-base
 - **Concepts**: OOP, Event-Driven Programming, Game Loop Management
 
 
+## How to run the game
 
+1. Clone the repository:
+2.Install required dependencies:
+3.Run main.py file
+
+pip install pygame pillow
 ```bash
 📁GameSphere_project/
 ├── main.py
@@ -30,5 +36,9 @@ A dynamic and modular **Game Launcher** built using Python, featuring a GUI-base
 ├── flappybird.py
 ├── space_invaders.py
 ├── tic.py
-├── other: images , videos
+├── other: images , videos```
+
+
+
+
 
