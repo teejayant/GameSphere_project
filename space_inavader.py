@@ -61,7 +61,7 @@ bullet.setheading(90)
 bullet.shapesize(0.5,0.5)
 bullet.hideturtle()
 
-bulletspeed=60
+bulletspeed=40
 
 #bullet states
 #ready=bullet is ready to be fired
@@ -69,7 +69,7 @@ bulletspeed=60
 bulletstate="ready"
 
 
-number_of_enemies=9
+number_of_enemies=8
 enemies=[]
 
 #add enemies to the list
@@ -120,7 +120,7 @@ def fire_bullet():
 def isCollision(t1,t2):
 
     distance=m.sqrt(pow((t1.xcor()-t2.xcor()),2) + pow((t1.ycor()-t2.ycor()),2))
-    if distance<30:
+    if distance<15:
         return True
     else:
         return False
@@ -171,13 +171,9 @@ while True:
             # work only in macos
             os.system("afplay explosion.wav&")
             player.hideturtle()
-            for j in enemies:
-                j.hideturtle()
-            wn.bgpic("gameover_space.png")
+            enemy.hideturtle()
+            print("GAME OVER!!")
             break
-
-            
-            
     #moving the bullet
     if bulletstate=="fire":
         y=bullet.ycor()
@@ -188,5 +184,8 @@ while True:
     if bullet.ycor()>275:
         bullet.hideturtle()
         bulletstate="ready"
+
+
+
 
 turtle.done()
