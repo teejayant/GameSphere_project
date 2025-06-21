@@ -1,8 +1,36 @@
-# Game_Launcher_project
-A dynamic game launcher built using Python libraries such as Tkinter, Pygame, Turtle, and the Image module. The launcher features multiple games, including:
+# GameSphere_project
+A dynamic and modular **Game Launcher** built using Python, featuring a GUI-based interface with access to four classic mini-games. Developed using **Tkinter**, **Pygame**, **Turtle**, and **PIL (Image module)**, this project demonstrates skills in **game development**, **GUI design**, and **modular architecture**.
 
-Flappy Bird: A classic side-scrolling game where players navigate a bird through obstacles.
-Space Invaders: A retro arcade game where players defend against waves of alien invaders.
-Tic Tac Toe: The traditional 3x3 grid strategy game for two players.
-Car Obstacle Game: A fast-paced game requiring players to steer a car while avoiding obstacles.
-This project showcases the integration of diverse game mechanics within a unified launcher framework.
+## 🎮 Included Games
+
+- **Flappy Bird** – Navigate a bird through pipes as obstacles using keyboard controls
+- **Space Invaders** – A retro arcade game where players defend against waves of alien invaders
+- **Tic Tac Toe** – A classic 3x3 grid game for two players
+- **Car Obstacle Game** – Steer a car while dodging dynamic obstacles
+
+## 🚀 Features
+
+- Central **Tkinter GUI launcher** to access all games
+- Games built with **modular, object-oriented structure**
+- Real-time **collision detection**, **keyboard input**, and **animations**
+- Integrated **custom graphics and assets** for improved visuals
+
+## 🛠️ Tech Stack
+
+- **Languages**: Python
+- **Libraries**: Tkinter, Pygame, Turtle, PIL (Image)
+- **Concepts**: OOP, Event-Driven Programming, Game Loop Management
+
+## 📷 Screenshots
+
+> **
+
+```bash
+📁GameSphere_project/
+├── main.py
+├── car_game.py
+├── flappybird.py
+├── space_invaders.py
+├── tic.py
+├── other: images , videos
+
