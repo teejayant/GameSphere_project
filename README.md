@@ -24,8 +24,8 @@ A dynamic and modular **Game Launcher** built using Python, featuring a GUI-base
 
 ## How to run the game
 
-- Clone the repository:
-- Install required dependencies:
+- Clone the repository
+- Install required dependencies
 - Run main.py file
 
 pip install pygame pillow
