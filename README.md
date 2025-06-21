@@ -36,7 +36,7 @@ pip install pygame pillow
 ├── flappybird.py
 ├── space_invaders.py
 ├── tic.py
-├── other: images , videos```
+├── other: images , videos
 
 
 
